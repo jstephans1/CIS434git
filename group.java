@@ -3,7 +3,7 @@ public class group {
   }
 
   static String OmPatelInfo() {
-  return ("Om Patel CSU ID: 2772347 ");
+  return ("Om Patel CSU ID: 2772347");
   }
   
   static String getGroupMembers() { 
