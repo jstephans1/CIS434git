@@ -11,5 +11,12 @@ public class group {
 
   public static String jacobInfo(){
     return("Jacob Stephans - 2805598");
+  }
+
+  public static String AhmadInfo(){
+    return ("Ahmad Rahman 2739398");
+  }
+
+
   
 }
