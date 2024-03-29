@@ -8,5 +8,8 @@ public class group {
   
   static String getGroupMembers() { 
   }
+
+  public static String jacobInfo(){
+    return("Jacob Stephans - 2805598");
   
 }
