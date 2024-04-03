@@ -21,6 +21,33 @@ public class group {
   public static String ElijahInfo(){
     return ("Elijah Gulley 2806198");
   }  
+
+public static int multiply(int num1, int num2){
+        boolean negative;
+        if(num1==0 || num2==0){
+            return 0;
+        }
+        if((num1 < 0 && num2 > 0) || (num1 > 0 && num2 < 0)){
+            negative=true;
+        }
+        else{
+            negatuve=false;
+        }
+
+        num1 = Math.abs(num1);
+        num2 = Math.abs(num2);
+        for(int i=0l i<num1; i++){
+            result+=num2;
+        }
+        if(negative){
+            return -result;
+        }
+        else{
+            return result;
+        }
+        
+    }
+
   public static int power(int num1, int num2) {
         //can't handle negative exponents if the return type is int
         if (num2 < 0) {
