@@ -1,3 +1,4 @@
+package test;
 public class group {
     public static void main(String[] Args) {
     }
@@ -35,6 +36,7 @@ public class group {
         absolute1=absolute1-absolute2;
         result++;
           }
+      if (absolute1 != 0) { throw new ArithmeticException("Result not a whole number");}
       if((num1<0 && num2 >1) || (num1>0 && num2 <0)){
         result = -result;
       }
