@@ -21,6 +21,7 @@ public class group {
   public static String ElijahInfo(){
     return ("Elijah Gulley 2806198");
   }  
+
 public static int multiply(int num1, int num2){
         boolean negative;
         if(num1==0 || num2==0){
@@ -46,5 +47,16 @@ public static int multiply(int num1, int num2){
         }
         
     }
-  
+
+  public static int power(int num1, int num2) {
+        //can't handle negative exponents if the return type is int
+        if (num2 < 0) {
+            throw new IllegalArgumentException("Exponent cannot be negative");
+        }
+        int result = 1;
+        for (int i = 0; i < num2; i++) {
+            result = multiply(result, num1);
+        }
+        return result;
+    }
 }
