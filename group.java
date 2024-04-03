@@ -25,7 +25,18 @@ public class group {
   public int divide(int num1, int num2)
   {
     if (num2 == 0){ throw new ArithmeticException(); }
-    return 0;
+    int rem = num1 - num2;
+    if (rem < 0) { throw new ArithmeticException(); }
+    if (rem == 1){ return 1; }
+    rem = num1;
+    int result = 0;
+    while (rem >= num2)
+    {
+      rem -= num2;
+      result++;
+    }
+    if (rem != 0) { throw new ArithmeticException(); }
+    return result;
   }
 
   public int multiply(int num1, int num2)
