@@ -8,7 +8,7 @@ public class group {
     }
     
     static String getGroupMembers() { 
-      return ("Elijah" + "Jacob" + "" + "" + "");
+      return ("Elijah" + "Jacob" + "Om" + "Ahmad" + "");
     }
   
     public static String jacobInfo(){
