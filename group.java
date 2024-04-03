@@ -41,12 +41,23 @@ public class group {
 
   public int multiply(int num1, int num2)
   {
-    return 0;
+    int result = 0;
+    for (int i = 0; i < num2; i++)
+    {
+      result += num1;
+    }
+    return result;
   }
 
   public int power(int num1, int num2)
   {
-    return 0;
+    if (num2 < 0) { return 0; }
+    int result = 1;
+    for (int i = 0; i < num2; i++)
+    {
+      result *= num1;
+    }
+    return result;
   }
   
 }
