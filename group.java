@@ -21,5 +21,21 @@ public class group {
   public static String ElijahInfo(){
     return ("Elijah Gulley 2806198");
   }  
+
+  public int divide(int num1, int num2)
+  {
+    if (num2 == 0){ throw new ArithmeticException(); }
+    return 0;
+  }
+
+  public int multiply(int num1, int num2)
+  {
+    return 0;
+  }
+
+  public int power(int num1, int num2)
+  {
+    return 0;
+  }
   
 }
